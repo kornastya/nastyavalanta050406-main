@@ -1,0 +1,212 @@
+.header__nav__tree{
+    margin-top: 50px;
+    margin-left: 170px;
+
+}
+.nav_tree{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav_tree a{
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696 ;
+    text-decoration: none;
+}
+
+.nav_tree li:last-child a{
+    color: #000;
+}
+
+.contact__info{
+    margin: 200px 255px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__content h2{
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    text-transform: uppercase ;
+    color: #323232;
+    
+}
+
+.contacttext{
+    font-size: 16px;
+    line-height: 26px;
+    color: #323232;
+}
+
+p.subtext{
+    font-size: 16px;
+    line-height: 12px;
+    color: #848484;
+    margin-bottom: 15px;
+}
+
+.contact__block{
+    margin-top: 30px;
+}
+
+.contact__form{
+    background: #F8F8F8;
+    width: 500px;
+    padding: 40px 65px 10px;
+}
+
+.contact__form h3{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #323232;
+}
+
+.form_input{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #D0D0D0;
+    margin-top: 15px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #969696;
+}
+
+.form_btn{
+    background: #DD4053;
+border-radius: 2px;
+width: 100%;
+padding: 20px 0;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+margin-top: 20px;
+}
+
+.team__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team__header h2{
+font-weight: 500;
+font-size: 31px;
+line-height: 42px;
+text-transform: uppercase;
+color: #232323;
+}
+
+.team_list{
+    display: flex;
+}
+
+
+.team_list li{
+    font-size: 16px;
+line-height: 100%;
+color: #000000;
+opacity: 0.35;
+margin-left: 50px;
+list-style: none;
+}
+
+.team_cardzone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team-card{
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+    width: 500px;
+}
+
+.card--text{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card_header h4{
+ font-weight: 500;
+ font-size: 20px;
+line-height: 26px;
+color: #323232;
+
+}
+
+.card_header p{
+    font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #323232;
+
+}
+
+.card_header a{
+    font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #323232;
+
+}
+
+@media screen and (max-width:1200px){
+    header{
+        display: none;
+    }
+     .container{
+         max-width: 90%;
+     }
+
+     .contact__form{
+         width: 375px;
+     }
+
+     .team_list li{
+         margin-left: 30px;
+     }
+
+     .team-card{
+         width: 100%;
+         justify-content: center;
+     }
+
+}
+
+@media screen and (max-width: 768px){
+    .contact__info{
+        flex-direction: column;
+    }
+    .contact__form{
+        margin-top: 30px;
+
+    }
+
+    .team__header , .team-list{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .team-list li{
+        margin-top: 20px;
+    }
+}
+
+
